@@ -1,0 +1,45 @@
+.a.ytp-title-link.yt-uix-sessionlink{
+    display: none;
+}
+.a.ytp-title-channel-logo{
+    display: none;
+}
+.button.ytp-large-play-button.ytp-button.ytp-large-play-button-red-bg {
+    display: none;
+}
+.Details{
+    display: flex;
+    .rigth{
+        width: 60%;
+        margin-left: 70px;
+        .video{
+            width: 90%;
+            height:10%;
+            background-color: gray;
+            border-radius: 15px;
+            iframe{
+                border-radius: 15px;
+            }
+        }
+        .titleVideo{
+            margin-top: 30px;
+            width: 90%;
+            h1{
+                font-size: large;
+            }
+        }
+        .descriptionVideo{
+            margin-top: 20px;
+            background-color: rgba(128, 128, 128, 0.747);
+            padding: 20px;
+            border-radius: 10px;
+            width: 90%;
+            h1{
+                font-size: 12px;
+            }
+        }
+    }
+    .left{
+        width: 40%;
+    }
+}

@@ -1,0 +1,16 @@
+.Navigation{
+    transition: 10s;
+    margin: 12px;
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+        li{
+            gap: 20Px;
+            a{
+                color: white;
+            }
+        }
+    }
+}

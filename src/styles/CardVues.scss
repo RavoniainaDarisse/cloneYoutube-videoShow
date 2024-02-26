@@ -1,0 +1,30 @@
+.CardVues{
+    .card{
+        display: flex;
+        .img{
+            height: 150px;
+            width: 250px;
+        }
+        .contentCard{
+            margin-left: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            .title{
+                max-width: 400px;
+                font-size: x-large;
+            }
+            .chaine{
+                color: #aaa9a9;
+                font-size: 14px;
+                font-weight: 600;
+            }
+            .desc{
+                max-width: 400px;
+                color: #aaa9a9;
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+    }
+}

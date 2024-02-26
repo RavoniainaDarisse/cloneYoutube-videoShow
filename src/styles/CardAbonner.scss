@@ -1,0 +1,33 @@
+.CardAbonner{
+    max-width: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    .img{
+        width: 100px;
+        height: 100px;
+        background-color: gray;
+        border-radius: 50%;
+        margin: auto;
+    }
+    .chaine{
+        text-align: center;
+    }
+    .abonne{
+        text-align: center;
+        font-size: 14px;
+        font-weight: 600;
+        color: rgb(150, 149, 149);
+    }
+    .btnAbonner{
+        margin: auto;
+        margin:5px 20px;
+        background-color: gray;
+        color: #fff;
+        border: none;
+        width: 100px;
+        height: 35px;
+        border-radius: 14px;
+    }
+
+}

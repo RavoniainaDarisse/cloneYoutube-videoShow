@@ -1,0 +1,19 @@
+.acceuil{
+    .listPoplr{
+        ul{
+            display: flex;
+            gap: 12px;
+            li{
+                border-radius: 5px;
+                padding:5px 12px;
+                background-color: rgba(83, 81, 81, 0.856);
+                text-align: center;
+            }
+        }
+    }
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
